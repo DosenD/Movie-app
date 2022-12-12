@@ -1,0 +1,8 @@
+<div class="home-movies-container" *ngIf="movieList$ | async as movieList">
+  <div *ngFor="let movie of movieList">
+    <p>
+      {{ movie.description}}
+    </p>
+  </div>
+
+</div>

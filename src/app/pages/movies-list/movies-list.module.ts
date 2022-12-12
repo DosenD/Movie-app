@@ -16,4 +16,5 @@ const components = [MoviesListComponent];
   ],
   declarations: [...components],
 })
-export class MoviesListModule {}
+export class MoviesListModule {  
+}
